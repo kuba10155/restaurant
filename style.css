@@ -1,0 +1,209 @@
+body {
+    background: #F5F5F5;
+    font-family: 'Smythe', sans-serif;
+    margin: 0 auto;
+    width: 600px;
+}
+
+h1, h2, h3, p {
+  font-weight: normal;
+  margin: 0;
+}
+
+h1{
+  font-size: 39px;
+}
+
+h2{
+  font-size: 24px;
+}
+
+h3{
+  font-size: 20px;
+}
+
+p{
+  color: #8B8B8B;
+  font-size: 16px;
+}
+
+.title{
+  background-image: url('/images/hamburger3.jpg');
+  background-size: 600px 300px;
+  background-position: left;
+  color: #FFFFFF;
+  width: 540px;
+  padding: 30px;
+}
+
+.products-container{
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.product{
+  align-items: center;
+  display: flex;
+  border-bottom: 1px solid #D2D2D2;
+  gap: 32px;
+  justify-content: flex-start;
+  margin: 0 40px;
+  padding: 50px 0;
+}
+
+.product-img{
+  height: 89px;
+  font-size: 70px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.product-desc{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.product-price {
+  margin-top: 7px;
+}
+
+.add-product-btn{
+  background: white;
+  border: 1.5px solid #DEDEDE;
+  border-radius: 50%;
+  color: #3C3C3C;
+  cursor: pointer;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 22px;
+  height: 40px;
+  width: 40px;
+}
+
+.checkout-menu{
+  background: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.checkout-items{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.checkout{
+  align-items: center;
+  display: flex;
+  gap: 4px;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.checkout-price{
+  border-top: 2px solid #393333;
+  display: flex;
+  margin-top: 15px;
+  padding: 10px 0;
+}
+
+.remove-btn{
+  background: white;
+  border: none;
+  color: #BBBBBB;
+  cursor: pointer;
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.complete-order-btn{
+  background: #16DB99;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 25px;
+  padding: 15px;
+  width: 100%;
+}
+
+.modal-payment{
+  background: white;
+  display: none;
+  flex-direction: column;
+  filter: drop-shadow(5.18654px 5.18654px 255.437px rgba(0, 0, 0, 0.5));
+  top: 300px;
+  left: 0;
+  right: 0;
+  bottom: 330px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  position: fixed;
+  height: 39%;
+  width: 50%;
+}
+
+.order-title{
+  margin-bottom: 50px;
+}
+
+.modal-payment h2{
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 700;
+  margin: 20px auto 35px auto;
+}
+
+input{
+  border: 1.3px solid #757575;
+  border-radius: 3px;
+  color: #757575;
+  margin-bottom: 15px;
+  padding: 15px;
+  width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.pay-btn{
+  background: #16DB99;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-family: 'Verdana';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 20px auto;
+  padding: 15px;
+  width: 100%;
+}
+
+.ending-message{
+  background: #ECFDF5;
+  color: #065F46;
+  margin-bottom: 100px;
+  padding: 25px;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.margin-left{
+  margin-left: auto;
+}
