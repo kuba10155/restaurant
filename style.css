@@ -28,7 +28,7 @@ p{
 }
 
 .title{
-  background-image: url('/images/hamburger3.jpg');
+  background-image: url('hamburger3.jpg');
   background-size: 600px 300px;
   background-position: left;
   color: #FFFFFF;
